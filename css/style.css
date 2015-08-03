@@ -1,0 +1,146 @@
+/**
+ * Parallax Scrolling Tutorial
+ * readapted from Smashing Magazine
+ * July 2011
+ *  
+ * readapted by Jakki O Donovan
+ *		   www.zigzagcarrot.com
+ * 		   Thanks Richard  
+ */
+nav  ul{
+	position:fixed;
+	z-index:1;
+	background-color:cyan;
+	width: 100%;
+	height:40px;
+	text-align: center;
+	font-size: 18px;
+        color:orange;
+	}
+        
+nav li{
+	color: orange;
+	display: inline;
+	margin-right: 40px;
+	line-height:30px;
+
+    }
+nav li:hover,.active{
+	cursor:pointer;
+	width:100px!important;
+   }
+   
+ #first a{
+    
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+ }
+
+article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-height: 1em; }
+article h3 { font-family: 'Lobster Two'; font-size: 40px; margin: 25px 0; line-height: 1em; }
+.story { height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+
+#first { background: url(../images/sea.png) 70% 0 no-repeat fixed; }
+#first{ background-color: orange; }
+#second { background: url(../images/sea1.png) 50% 0 no-repeat fixed; }
+#fourth { background: #FFBF00; }
+#third { background: #04B4AE;  }
+#theend { background: #04B4AE;  }
+#five { background-color: cyan; }
+#six{}
+#seven{}
+#seven{}
+#eight{}
+/* lightbox */
+figure  {
+		    float: left;
+		    width: 150px;
+		    height: 150px;
+		    padding: 5px;
+		    margin: 10px;
+
+		  }
+#container3{
+            width: 900px;
+            margin-right: auto;
+			margin-left: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+            
+            overflow: auto;
+			font-family: verdana,sans-serif;
+			color: #F2F2F2;
+			
+			font-size: 16px;
+            text-align: center;word-spacing: 5.2pt;
+			line-height: 2.6;
+         }
+
+/* Introduction */
+#first .smashinglogo { background: url(../images/animals.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article p {color:white;}
+#first article a { color: #ccc; }
+#first article a { text-decoration: underline; }
+#first article a:hover { color: #fff; }
+
+/* Background Only */
+#second { padding: 50px 0;}
+#second article { background-color: cyan; color: #fff; width: 445px; margin-left: 100px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second article p { margin-bottom: 25px; }
+#second article a { color: #ff0;}
+
+/* Photograph */
+#third article {  background: cyan; color: #fff; padding: 10px 20px; margin: 100px 0 0 60%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#third {  min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#third article p { width: 300px; margin-bottom: 25px; }
+
+/* HTML5 Video */
+#fourth article {  margin-left: 10%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#fourth article p { width: 300px; margin: 50px 0; }
+#fourth video { position: fixed; left: 60%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 2;}
+
+/* The End */
+#theend .byebye {height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#five  { background-color: cyan 40% 100px no-repeat fixed; height: 600px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#six  { background: url(../images/body-bg.jpg) top center repeat-x white; margin: 0; font: 62.5% "Gill Sans", Georgia, sans-serif;}
+#seven{
+            width: 600px;	
+            padding-right: 10px;
+            border: 5px ;
+            margin-left: auto;
+            margin-right: auto;
+            height: 800px;
+            margin-top:150px
+         }
+    
+
+css styles for contact page, be careful if changing these
+******************************************************************************************************************
+input, textarea {  
+		    padding: 9px;  
+		    width: 300px;    
+			}  
+textarea    {  
+			width: 300px;    
+			height: 100px;  
+		}  
+					  
+.form label {  
+			margin-left: 10px;  
+			color: #999999;
+			
+		}  
+.submit input {  
+			width: auto;  
+			padding: 9px 15px;  
+			background: orange;  
+			border: 0;  
+			font-size: 14px;  
+			color: cyan;  
+			-moz-border-radius: 5px;  
+			-webkit-border-radius: 5px;  
+	    } 
+
+
+#eight{}
